@@ -14,7 +14,7 @@
 }
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .header {
@@ -24,20 +24,26 @@ html {
 }
 
 .image {
-
-    max-width: 50%;
-    height: auto;
-  
+  max-width: 50%;
+  height: auto;
 }
 
 .banner {
   background-color: gold;
+  animation: mymove 10s infinite;
+  border-radius: 20px 20px;
   text-align: center;
   font-size: 18px;
   padding: 20px;
-  margin: 0;
-
+  margin: 10px;
 }
+
+@keyframes mymove {
+  50% {
+    background-color: yellow;
+  }
+}
+
 .board ul {
   list-style-type: none;
   margin: 0;
@@ -46,6 +52,8 @@ html {
 
 .column {
   border: 2px solid lightgray;
+  border-radius: 10px 10px;
+
   margin: 1px;
   padding: auto;
 }
@@ -82,7 +90,6 @@ a:active {
   background-color: #33b5e5;
   color: white;
   border: 2px solid #33b5e5;
-
 }
 
 /* .board li:hover {
