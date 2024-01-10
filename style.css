@@ -23,6 +23,13 @@ html {
   padding: 15px;
 }
 
+.image {
+
+    width: 100%;
+    height: auto;
+  
+}
+
 .banner {
   background-color: gold;
   text-align: center;
