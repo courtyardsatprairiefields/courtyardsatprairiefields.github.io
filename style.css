@@ -58,9 +58,8 @@ h3 {
 }
 
 .column {
-  border: 2px solid lightgray;
+  border: 2px solid lavenderblush;
   border-radius: 10px 10px;
-
   margin: 1px;
   padding: auto;
 }
@@ -82,15 +81,18 @@ h3 {
 a:link,
 a:visited {
   background-color: white;
-  color: black;
-  /* border: 1px solid #33b5e5; */
+  /* color: blueviolet; */
+  border: 1px solid lavender;
+  width: 100%;
   padding: 10px 20px;
-  text-align: left;
-  text-decoration: none;
+  text-align: center;
+  /* text-decoration: none; */
   display: inline-block;
   padding: 8px;
   margin-bottom: 7px;
 }
+
+
 
 a:hover,
 a:active {
